@@ -1,0 +1,15 @@
+{
+  "type": "",
+  "host": "",
+  "port": "",
+  "username": "",
+  "password": "",
+  "database": "",
+  "timezone": "+00:00",
+  "charset": "utf8_general_ci",
+  "entities": ["./src/modules/**/infra/database/entities/*.ts"],
+  "migrations": ["./src/shared/infra/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/shared/infra/database/migrations"
+  }
+}
